@@ -1,0 +1,43 @@
+{  
+   "name":"zeratools",
+   "version":"0.0.1",
+   "description":"Zeratools is the core package, as an entry point in nodeJS and npm",
+   "homepage":"https://www.zeratools.com/"
+   "license":"Apache-2.0",
+   "author": {  
+      "name":"VMIG",
+      "email":"vmig@zeratools.com",
+	  "url" : "https://www.zeratools.com/vmig"
+    },
+   "main":"./src/zrt.js",
+   "bin":{  
+      "zrt":"./src/zrt.js"
+   },
+   "man": "./man/doc.1",
+   "config": {
+   
+   },
+   "scripts":{  
+      "start":"node index.js"
+   },
+   "repository":{  
+      "type":"git",
+      "url":"https://github.com/zeratools/zrt"
+   },
+   "bugs":{  
+      "url":"https://www.zeratools.com/bugtracker/zeratools",
+      "email":"bugs@zeratools.com"
+   },
+   "keywords":[  
+      "zeratools",
+      "core"
+   ],
+   "dependencies":{  
+   },
+   "devDependencies":{  
+      "traceur":"git+https://github.com/google/traceur-compiler.git",
+      "less":"git+https://github.com/less/less.js.git"
+   },
+   "preferGlobal":true,
+   "private":true
+}
